@@ -1,5 +1,5 @@
 /*
-Diese Queries testet, ob die Daten ohne weitere Anpassungen benutzt werden können.
+Diese Queries testen, ob die Daten ohne weitere Anpassungen benutzt werden können.
 Da die Daten sehr gut vorbereitet wurde, fallen hier nicht sonderlich viele Tests an.
 Es handelt sich um sehr viele numerischen Werte, weshalb der Fokus auf dem Finden von 
 NULLs und nicht auf dem Testen auf falsch eingerückete Daten wie es bei VARCHAR-Werte 
