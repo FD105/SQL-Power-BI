@@ -1,8 +1,8 @@
 /*
 Diese Queries testen, ob die Daten ohne weitere Anpassungen benutzt werden können.
-Da die Daten sehr gut vorbereitet wurde, fallen hier nicht sonderlich viele Tests an.
-Es handelt sich um sehr viele numerischen Werte, weshalb der Fokus auf dem Finden von 
-NULLs und nicht auf dem Testen auf falsch eingerückete Daten wie es bei VARCHAR-Werte 
+Da die Daten sehr gut vorbereitet wurden, fallen hier nicht sonderlich viele Tests an.
+Es handelt sich um sehr viele numerische Werte, weshalb der Fokus auf dem Finden von 
+NULLs und nicht auf dem Testen auf falsch eingerückte Daten wie es bei VARCHAR-Werten 
 manchmal vorkommt, liegt.
 */
 
@@ -16,6 +16,7 @@ FROM Absenteeism_at_work
 GROUP BY ID
 HAVING count(*) > 1
 
+  
 -- für den compensation Table
 SELECT 
 ID,
@@ -24,6 +25,7 @@ FROM compensation
 GROUP BY ID
 HAVING count(*) > 1
 
+  
 -- für den reasons Table
 SELECT 
 Number,
@@ -32,6 +34,7 @@ FROM Reasons
 GROUP BY Number
 HAVING count(*) > 1
 
+  
 -- auf NULLs un auf einheitliche Werte in den Daten testen 
 -- (jeweils einzelne Table und jeweiligen Spalten einsetzen)
 SELECT DISTINCT 
