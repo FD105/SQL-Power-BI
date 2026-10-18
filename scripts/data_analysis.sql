@@ -1,6 +1,6 @@
 /*
-Diese Queries bieten den ersten Einblick in die Daten und stellen die Merkamle zusammen,
-die im Folgenden in Power BI verwendet werden.
+Diese Queries bieten den ersten Einblick in die Daten und stellen die Merkmale 
+zusammen, die im Folgenden in Power BI verwendet werden.
 */
 
 -------------------------------------------------------------------------------------
