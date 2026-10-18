@@ -5,8 +5,7 @@ Es handelt sich um sehr viele numerischen Werte, weshalb der Fokus auf dem Finde
 NULLs und nicht auf dem Testen auf falsch eingerückete Daten wie es bei VARCHAR-Werte 
 manchmal vorkommt, liegt.
 */
-
-
+-------------------------------------------------------------------------------------
 
 -- testen, ob die IDs auch unique sind (für alle Table)
 
