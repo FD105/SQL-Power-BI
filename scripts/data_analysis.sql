@@ -1,3 +1,9 @@
+/*
+Diese Queries bieten den ersten Einblick in die Daten und stellen die Merkamle zusammen,
+die im Folgenden in Power BI verwendet werden.
+*/
+
+-------------------------------------------------------------------------------------
 -- grundlegendes Joinen der Table
 SELECT * 
 FROM Absenteeism_at_work AS a
@@ -6,6 +12,7 @@ ON a.ID = c.ID
 LEFT JOIN Reasons AS r
 ON a.Reason_for_absence = r.Number
 
+	
 -- die gesündesten Mitarbeiter finden
 SELECT * 
 FROM Absenteeism_at_work
@@ -17,6 +24,7 @@ AVG(Absenteeism_time_in_hours)
 FROM Absenteeism_at_work
 )
 
+	
 -- Erhöhung des Vergütungssatzes für Nichtraucher 
 -- Budget = 983.221€ -- 686 Mitarbeiter
 -- Arbeitstunden pro Jahr: 5 Wochentage x 8 Stunden x 52 Wochen pro Jahr
@@ -28,6 +36,7 @@ COUNT(*) AS non_smokers
 FROM Absenteeism_at_work
 WHERE Social_smoker = 0
 
+	
 -- optimieren der ersten Join-Query durch das Auswählen der Spalten die 
 -- wirklich benötigt werden
 SELECT
