@@ -7,3 +7,5 @@ Die gegebenen Daten behandeln das Thema der Fehlzeiten. In Power BI werden die a
 Das Wireframe wurde erstellt, um erstmal ein grobes Gerüst zu bieten, um sich daran dann beim Bau der Bower-Bi-Darstellung zu orientieren.
 
 <img width="699" height="760" alt="Wireframe" src="https://github.com/FD105/SQL-Power-BI/blob/59160537c5633689b3f249c88c9e063c33c0e060/ducumentation/wireframe.png" />
+
+Das Ganze ist erstmal recht simpel gehalten, um auch ohne Vorwissen etwas voranzukommen. Wenn die Zeit da ist, kommen vielleicht noch komplexere Varianten.
